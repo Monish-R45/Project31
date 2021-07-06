@@ -66,10 +66,9 @@ function draw() {
   for (var k = 0; k < divisions.length; k++) {
     divisions[k].display();
   }
-
-  //display the paricles 
-  if (frameCount%60===0){
-    particles[particles].display();
+if (frameCount%60===0){
+    particles.push(new Particle(random(width/2-10,width/2+10),10,10))
   }
     
+  //display the paricles 
 }
