@@ -42,9 +42,7 @@ function setup() {
   }
 
   //create particle objects
-  if (frameCount%60===0){
-    particles.push(new Particle(random(width/2-10,width/2+10),10,10))
-  }
+  
     
 }
  
