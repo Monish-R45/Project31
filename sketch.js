@@ -69,7 +69,7 @@ if (frameCount%60===0){
   }
     
   //display the paricles 
-  for (var j = 0; j < particles.lenght; j++){
+  for (var j = 0; j < particles.length; j++){
     particles[j].display();
   }
 }
